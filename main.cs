@@ -22,5 +22,15 @@ namespace Test
       {
         return l;
       }
+    
+      public void SetList(List<int> list)
+      {
+        l = list;
+      }
+    
+      public void AddToList(int i)
+      {
+        l.Add(i);
+      }
   }
 }
