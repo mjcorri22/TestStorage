@@ -6,6 +6,7 @@ namespace Test
   public class TestGitHub
   {
       private string s;
+      List<int> l;
       
       public TestGitHub()
       {
@@ -15,6 +16,11 @@ namespace Test
       public TestGitHub(string input)
       {
         s = input;
+      }
+    
+      public List<int> GetList()
+      {
+        return l;
       }
   }
 }
